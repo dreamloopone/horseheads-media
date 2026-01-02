@@ -329,8 +329,8 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6">
             {/* Left: Images Grid */}
             <div className="grid grid-cols-2 gap-3">
-              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/dandy4.JPG" alt="Web design light theme" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
-              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/drone3.JPG" alt="Web application interface" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
+              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr3.JPG" alt="Web design light theme" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
+              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr4.JPG" alt="Web application interface" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
               <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr1.JPG" alt="Task management app" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
               <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr2.JPG" alt="Project dashboard" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
             </div>
