@@ -48,7 +48,7 @@ export default function Portfolio() {
     category: 'Drone Footage',
     description: 'Professional aerial cinematography for corporate and business video productions',
     gradient: 'from-pink-500 to-rose-600',
-    videoUrl: 'https://vimeo.com/1129901190?share=copy&fl=sv&fe=ci',
+    videoUrl: 'https://vimeo.com/1131799162?share=copy&fl=sv&fe=ci',
     isShowcase: true
   };
 
@@ -215,9 +215,9 @@ export default function Portfolio() {
                       allowFullScreen
                     ></iframe>
                   </div>
-                  <img src="/src/assets/dandy1.JPG" alt="Brand launch screens" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
-                  <img src="/src/assets/dandy2.JPG" alt="Brand signup interface" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
-                  <img src="/src/assets/dandy3.JPG" alt="Brand rewards card" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
+                  <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/dandy1.JPG" alt="Brand launch screens" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
+                  <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/dandy2.JPG" alt="Brand signup interface" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
+                  <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/dandy3.JPG" alt="Brand rewards card" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
                 </div>
               </div>
 
@@ -267,8 +267,8 @@ export default function Portfolio() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <img src="/src/assets/drone1.JPG" alt="Drone aerial boathouse" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
-              <img src="/src/assets/dron2.JPG" alt="Drone cityscape sunset" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
+              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/drone1.JPG" alt="Drone aerial boathouse" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
+              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/dron2.JPG" alt="Drone cityscape sunset" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
             </div>
           </div>
 
@@ -316,8 +316,8 @@ export default function Portfolio() {
                   allowFullScreen
                 ></iframe>
               </div>
-              <img src="/src/assets/Capture 2.JPG" alt="Green screen news broadcast" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
-              <img src="/src/assets/greenscreen5.JPG" alt="Green screen corporate presenter" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
+              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/Capture%202.JPG" alt="Green screen news broadcast" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
+              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/greenscreen5.JPG" alt="Green screen corporate presenter" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
             </div>
           </div>
 
@@ -329,10 +329,10 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6">
             {/* Left: Images Grid */}
             <div className="grid grid-cols-2 gap-3">
-              <img src="/src/assets/dlo1.JPG" alt="Web design light theme" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
-              <img src="/src/assets/dlo2.JPG" alt="Web application interface" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
-              <img src="/src/assets/tskmgr1.JPG" alt="Task management app" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
-              <img src="/src/assets/tskmgr2.JPG" alt="Project dashboard" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
+              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/dandy4.JPG" alt="Web design light theme" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
+              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/drone3.JPG" alt="Web application interface" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
+              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr1.JPG" alt="Task management app" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
+              <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr2.JPG" alt="Project dashboard" className="w-full aspect-video object-cover rounded-lg hover:scale-105 transition-transform" />
             </div>
 
             {/* Right: Content */}

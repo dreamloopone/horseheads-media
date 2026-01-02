@@ -5,7 +5,7 @@ export default function Services() {
     {
       icon: Video,
       title: 'Commercial Video Production',
-      description: 'Full-service commercial production from concept to delivery. High-end video production with 4K capabilities and professional-grade equipment.',
+      description: 'Full-service commercial production from concept to delivery. High-end video production with HD capabilities and professional-grade equipment.',
       gradient: 'from-cyan-500 to-blue-600'
     },
     {
@@ -95,10 +95,10 @@ export default function Services() {
                     </div>
 
                     <div className="grid grid-cols-2 gap-2 p-4 bg-slate-950/50">
-                      <img src="/src/assets/tskmgr1.JPG" alt="Task Manager Main View" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
-                      <img src="/src/assets/tskmgr2.JPG" alt="Task Manager Calendar" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
-                      <img src="/src/assets/tskmgr3.JPG" alt="Task Manager Detail" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
-                      <img src="/src/assets/tskmgr4.JPG" alt="Task Manager Board" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
+                      <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr1.JPG" alt="Task Manager Main View" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
+                      <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr2.JPG" alt="Task Manager Calendar" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
+                      <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr3.JPG" alt="Task Manager Detail" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
+                      <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr4.JPG" alt="Task Manager Board" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
                     </div>
                   </div>
 

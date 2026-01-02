@@ -34,9 +34,9 @@ export default function Capabilities() {
     },
     {
       icon: Sparkles,
-      title: 'High-End Production Quality',
-      description: '4K+ video production with professional-grade equipment and experienced creative team.',
-      features: ['4K/8K Capability', 'Professional Audio', 'Color Grading', 'Cinema-Quality Output']
+      title: 'HD Video Production',
+      description: 'High-definition video production with professional-grade equipment and experienced creative team.',
+      features: ['HD Quality', 'Professional Audio', 'Color Grading', 'Cinema-Quality Output']
     }
   ];
 
