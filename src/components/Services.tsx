@@ -53,7 +53,7 @@ export default function Services() {
             Our <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Services</span>
           </h2>
           <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Comprehensive digital design and video production solutions for businesses throughout the Horseheads region
+            Comprehensive digital design and video production solutions for businesses throughout the Tri-State region
           </p>
         </div>
 
