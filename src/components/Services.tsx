@@ -148,7 +148,7 @@ export default function Services() {
         {/* Distribution & Reach Section */}
         <div className="mt-16 p-8 border border-brand-blue/30 bg-black">
           <h3 className="text-2xl font-bold text-white mb-6 font-mono uppercase tracking-wider">[ DISTRIBUTION & REACH ]</h3>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div>
               <h4 className="text-white font-mono uppercase tracking-wider mb-4 text-lg">DIGITAL PLATFORMS</h4>
               <ul className="text-white font-mono space-y-2 text-sm">
@@ -164,6 +164,16 @@ export default function Services() {
                 <li>• WETM-TV</li>
                 <li>• WENY-TV</li>
                 <li>• WYDC-TV</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-white font-mono uppercase tracking-wider mb-4 text-lg">LOCAL RADIO</h4>
+              <ul className="text-white font-mono space-y-2 text-sm">
+                <li>• 94 ROCK</li>
+                <li>• WOKN</li>
+                <li>• WAVR</li>
+                <li>• WLNL</li>
+                <li>• WNKI</li>
               </ul>
             </div>
           </div>

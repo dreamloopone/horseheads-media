@@ -48,25 +48,6 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* Technical Grid Stats */}
-            <div className="grid grid-cols-3 gap-4">
-              <div className="border border-brand-blue/30 bg-brand-blue/5 p-4 text-center">
-                <Target className="text-white/60 mx-auto mb-2" size={24} />
-                <div className="text-2xl font-bold text-white/60 font-mono">HD</div>
-                <div className="text-xs text-white/60 font-mono uppercase">Video Production</div>
-              </div>
-              <div className="border border-brand-blue/30 bg-brand-blue/5 p-4 text-center">
-                <Film className="text-white/60 mx-auto mb-2" size={24} />
-                <div className="text-2xl font-bold text-white/60 font-mono">3D</div>
-                <div className="text-xs text-white/60 font-mono uppercase">Graphics</div>
-              </div>
-              <div className="border border-brand-blue/30 bg-brand-blue/5 p-4 text-center">
-                <BookOpen className="text-white/60 mx-auto mb-2" size={24} />
-                <div className="text-2xl font-bold text-white/60 font-mono">EDU</div>
-                <div className="text-xs text-white/60 font-mono uppercase">Content</div>
-              </div>
-            </div>
-
             <button
               onClick={scrollToServices}
               className="border-2 border-brand-blue bg-brand-blue text-white px-8 py-4 font-mono uppercase tracking-wider hover:bg-brand-blue/80 transition-all font-bold"
