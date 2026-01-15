@@ -127,10 +127,10 @@ export default function Services() {
                     <div className="p-3 border border-brand-blue/40 bg-brand-blue/5">
                       <Icon className="text-white" size={24} />
                     </div>
-                    <span className="text-xs text-brand-blue/50 font-mono">0{index + 1}</span>
+                    <span className="text-xs text-white font-mono">0{index + 1}</span>
                   </div>
 
-                  <h3 className="text-lg font-bold text-brand-blue mb-3 font-mono uppercase tracking-wider">
+                  <h3 className="text-lg font-bold text-white mb-3 font-mono uppercase tracking-wider">
                     {service.title}
                   </h3>
 

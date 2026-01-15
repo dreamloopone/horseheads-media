@@ -21,8 +21,7 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
 
   const navItems = [
     { id: 'home', label: 'Home' },
-    { id: 'services', label: 'Services' },
-    { id: 'capabilities', label: 'Capabilities' },
+    { id: 'services', label: 'Capabilities' },
     { id: 'portfolio', label: 'Portfolio' },
     { id: 'contact', label: 'Contact' },
   ];
@@ -44,7 +43,7 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
         <div className="flex justify-between items-center h-20">
           <button
             onClick={() => scrollToSection('home')}
-            className="text-xl font-bold text-brand-blue font-mono uppercase tracking-wider hover:text-white transition-all"
+            className="text-xl font-bold text-white font-mono uppercase tracking-wider hover:text-brand-blue transition-all"
           >
             [ HORSEHEADS MEDIA ]
           </button>
