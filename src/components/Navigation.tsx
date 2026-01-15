@@ -38,17 +38,15 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
 
   return (
     <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-slate-900/95 backdrop-blur-md shadow-lg' : 'bg-transparent'
-      }`}
+      className="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-black/40 backdrop-blur-md shadow-lg"
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20">
           <button
             onClick={() => scrollToSection('home')}
-            className="text-2xl font-bold bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent hover:from-cyan-300 hover:to-blue-400 transition-all"
+            className="text-xl font-bold text-brand-blue font-mono uppercase tracking-wider hover:text-white transition-all"
           >
-            Horseheads Media
+            [ HORSEHEADS MEDIA ]
           </button>
 
           {/* Desktop Navigation */}
@@ -57,9 +55,9 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`text-sm font-medium transition-all hover:text-cyan-400 ${
-                  activeSection === item.id ? 'text-cyan-400' : 'text-gray-300'
-                }`}
+                className={`text-sm font-mono uppercase transition-all tracking-wider ${
+                  activeSection === item.id ? 'text-white font-bold' : 'text-gray-400'
+                } hover:text-white`}
               >
                 {item.label}
               </button>
@@ -78,16 +76,16 @@ export default function Navigation({ activeSection, setActiveSection }: Navigati
 
       {/* Mobile Menu */}
       {isMobileMenuOpen && (
-        <div className="md:hidden bg-slate-800/98 backdrop-blur-md border-t border-slate-700">
+        <div className="md:hidden bg-black/95 backdrop-blur-md border-t border-brand-blue/30">
           <div className="px-4 py-6 space-y-4">
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className={`block w-full text-left px-4 py-2 rounded-lg transition-all ${
+                className={`block w-full text-left px-4 py-2 rounded-lg font-mono uppercase transition-all ${
                   activeSection === item.id
-                    ? 'bg-cyan-500/20 text-cyan-400'
-                    : 'text-gray-300 hover:bg-slate-700'
+                    ? 'bg-brand-blue/20 text-brand-blue'
+                    : 'text-white hover:bg-brand-blue/10 hover:text-brand-blue'
                 }`}
               >
                 {item.label}

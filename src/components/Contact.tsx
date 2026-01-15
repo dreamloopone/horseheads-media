@@ -24,189 +24,145 @@ export default function Contact() {
   };
 
   return (
-    <section id="contact" className="py-24 bg-slate-900 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-800 to-slate-900"></div>
+    <section id="contact" className="py-24 bg-black relative overflow-hidden">
+      <div className="absolute inset-0 grid-pattern opacity-20"></div>
+      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-blue to-transparent"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-            Get In <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Touch</span>
+        <div className="mb-16">
+          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
+            [ ESTABLISH CONTACT ]
           </h2>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Ready to start your next project? Contact us today to discuss how we can bring your vision to life
+          <p className="text-white font-mono uppercase text-sm tracking-wider">
+            MISSION BRIEFING // PROJECT DEPLOYMENT
           </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Contact Information */}
           <div className="space-y-8">
-            <div className="bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700 rounded-xl p-8">
-              <h3 className="text-2xl font-bold text-white mb-6">Contact Information</h3>
+            {/* Logo Section */}
+            <div className="flex justify-center lg:justify-start">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/Horseheads%20Media%20Logo%20white%20text%20alpha.png" 
+                alt="Horseheads Media"
+                className="w-full max-w-xs h-auto"
+              />
+            </div>
+
+            <div className="bg-black border border-brand-blue/30 p-8">
+              <h3 className="text-xl font-bold text-white mb-6 font-mono uppercase tracking-wider">COORDINATES</h3>
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="p-3 rounded-lg bg-cyan-500/20 border border-cyan-500/30">
-                    <MapPin className="text-cyan-400" size={24} />
+                  <div className="p-3 border border-brand-blue/40 bg-brand-blue/5">
+                    <MapPin className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-white font-semibold mb-1">Location</h4>
-                    <p className="text-gray-400">Serving the Twin Tiers Region<br />Upstate NY & PA</p>
+                    <h4 className="text-white font-mono text-sm mb-1">LOCATION</h4>
+                    <p className="text-white font-mono text-sm">HORSEHEADS, NY 14845</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="p-3 rounded-lg bg-cyan-500/20 border border-cyan-500/30">
-                    <Phone className="text-cyan-400" size={24} />
+                  <div className="p-3 border border-brand-blue/40 bg-brand-blue/5">
+                    <Phone className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-white font-semibold mb-1">Phone</h4>
-                    <p className="text-gray-400">(555) 123-4567</p>
+                    <h4 className="text-white font-mono text-sm mb-1">COMM</h4>
+                    <p className="text-white font-mono text-sm">607-331-6383</p>
                   </div>
                 </div>
 
                 <div className="flex items-start gap-4">
-                  <div className="p-3 rounded-lg bg-cyan-500/20 border border-cyan-500/30">
-                    <Mail className="text-cyan-400" size={24} />
+                  <div className="p-3 border border-brand-blue/40 bg-brand-blue/5">
+                    <Mail className="text-white" size={20} />
                   </div>
                   <div>
-                    <h4 className="text-white font-semibold mb-1">Email</h4>
-                    <p className="text-gray-400">info@twintiersmedia.com</p>
+                    <h4 className="text-white font-mono text-sm mb-1">EMAIL</h4>
+                    <p className="text-white font-mono text-sm">info@horseheadsmedia.com</p>
                   </div>
                 </div>
               </div>
             </div>
-
-            <div className="bg-gradient-to-br from-cyan-500/10 to-blue-600/10 border border-cyan-500/30 rounded-xl p-8">
-              <h3 className="text-xl font-bold text-white mb-4">Why Choose Twin Tiers Media?</h3>
-              <ul className="space-y-3">
-                <li className="flex items-start text-gray-300">
-                  <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 mr-3 mt-2"></div>
-                  <span>Local expertise with regional market knowledge</span>
-                </li>
-                <li className="flex items-start text-gray-300">
-                  <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 mr-3 mt-2"></div>
-                  <span>Full-service production from concept to delivery</span>
-                </li>
-                <li className="flex items-start text-gray-300">
-                  <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 mr-3 mt-2"></div>
-                  <span>State-of-the-art equipment and technology</span>
-                </li>
-                <li className="flex items-start text-gray-300">
-                  <div className="w-1.5 h-1.5 rounded-full bg-cyan-400 mr-3 mt-2"></div>
-                  <span>Experienced team of creative professionals</span>
-                </li>
-              </ul>
-            </div>
           </div>
 
           {/* Contact Form */}
-          <div className="bg-gradient-to-br from-slate-800 to-slate-900 border border-slate-700 rounded-xl p-8">
-            <h3 className="text-2xl font-bold text-white mb-6">Send Us a Message</h3>
+          <div className="bg-black border border-brand-blue/30 p-8">
+            <h3 className="text-xl font-bold text-white mb-6 font-mono uppercase tracking-wider">TRANSMIT MESSAGE</h3>
 
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form action="https://formspree.io/f/xykkzdze" method="POST" className="space-y-6">
               <div>
-                <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-2">
-                  Name *
+                <label htmlFor="name" className="block text-sm font-mono text-white mb-2 uppercase">
+                  NAME
                 </label>
                 <input
                   type="text"
                   id="name"
                   name="name"
-                  value={formData.name}
-                  onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-slate-600 rounded-lg text-white placeholder-gray-500 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-all"
-                  placeholder="Your name"
+                  className="w-full px-4 py-3 bg-black border border-brand-blue/40 text-white font-mono placeholder-gray-600 focus:border-brand-blue outline-none transition-all"
+                  placeholder="[ENTER NAME]"
                 />
               </div>
 
               <div>
-                <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-2">
-                  Email *
+                <label htmlFor="email" className="block text-sm font-mono text-white mb-2 uppercase">
+                  EMAIL
                 </label>
                 <input
                   type="email"
                   id="email"
                   name="email"
-                  value={formData.email}
-                  onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-slate-600 rounded-lg text-white placeholder-gray-500 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-all"
-                  placeholder="your@email.com"
+                  className="w-full px-4 py-3 bg-black border border-brand-blue/40 text-white font-mono placeholder-gray-600 focus:border-brand-blue outline-none transition-all"
+                  placeholder="[ENTER EMAIL]"
                 />
               </div>
 
               <div>
-                <label htmlFor="phone" className="block text-sm font-medium text-gray-300 mb-2">
-                  Phone
-                </label>
-                <input
-                  type="tel"
-                  id="phone"
-                  name="phone"
-                  value={formData.phone}
-                  onChange={handleChange}
-                  className="w-full px-4 py-3 bg-slate-900 border border-slate-600 rounded-lg text-white placeholder-gray-500 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-all"
-                  placeholder="(555) 123-4567"
-                />
-              </div>
-
-              <div>
-                <label htmlFor="service" className="block text-sm font-medium text-gray-300 mb-2">
-                  Service Interested In *
+                <label htmlFor="service" className="block text-sm font-mono text-white mb-2 uppercase">
+                  SERVICE
                 </label>
                 <select
                   id="service"
                   name="service"
-                  value={formData.service}
-                  onChange={handleChange}
                   required
-                  className="w-full px-4 py-3 bg-slate-900 border border-slate-600 rounded-lg text-white focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-all"
+                  className="w-full px-4 py-3 bg-black border border-brand-blue/40 text-white font-mono focus:border-brand-blue outline-none transition-all"
                 >
-                  <option value="">Select a service</option>
-                  <option value="video">Commercial Video Production</option>
-                  <option value="motion">Motion Graphics & 3D Design</option>
-                  <option value="web">Web Design</option>
-                  <option value="branding">Logo Design & Branding</option>
-                  <option value="seo">SEO Services</option>
-                  <option value="print">Print Services</option>
-                  <option value="coop">Sponsorships & Co-op</option>
-                  <option value="other">Other</option>
+                  <option value="" className="bg-black text-white">[ SELECT SERVICE ]</option>
+                  <option value="video" className="bg-black text-white">VIDEO PRODUCTION</option>
+                  <option value="motion" className="bg-black text-white">MOTION GRAPHICS</option>
+                  <option value="education" className="bg-black text-white">EDUCATIONAL CONTENT</option>
+                  <option value="web" className="bg-black text-white">WEB DEPLOYMENT</option>
+                  <option value="branding" className="bg-black text-white">BRANDING</option>
+                  <option value="other" className="bg-black text-white">OTHER</option>
                 </select>
               </div>
 
               <div>
-                <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-2">
-                  Message *
+                <label htmlFor="message" className="block text-sm font-mono text-white mb-2 uppercase">
+                  MESSAGE
                 </label>
                 <textarea
                   id="message"
                   name="message"
-                  value={formData.message}
-                  onChange={handleChange}
                   required
                   rows={4}
-                  className="w-full px-4 py-3 bg-slate-900 border border-slate-600 rounded-lg text-white placeholder-gray-500 focus:border-cyan-500 focus:ring-1 focus:ring-cyan-500 outline-none transition-all resize-none"
-                  placeholder="Tell us about your project..."
+                  className="w-full px-4 py-3 bg-black border border-brand-blue/40 text-white font-mono placeholder-gray-600 focus:border-brand-blue outline-none transition-all resize-none"
+                  placeholder="[MISSION DETAILS]"
                 />
               </div>
 
               <button
                 type="submit"
-                className="w-full px-8 py-4 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold text-white hover:scale-[1.02] transition-all hover:shadow-lg hover:shadow-cyan-500/50 flex items-center justify-center gap-2"
+                className="w-full px-8 py-4 border-2 border-brand-blue bg-brand-blue text-white font-mono uppercase tracking-wider hover:bg-brand-blue/80 transition-all font-bold flex items-center justify-center gap-2"
               >
-                Send Message
+                [ SEND ]
                 <Send size={18} />
               </button>
             </form>
           </div>
-        </div>
-
-        {/* Footer */}
-        <div className="mt-24 pt-8 border-t border-slate-700 text-center">
-          <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Horseheads Media. All rights reserved.
-          </p>
         </div>
       </div>
     </section>

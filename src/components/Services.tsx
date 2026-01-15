@@ -1,145 +1,172 @@
-import { Video, Palette, Globe, Search, Handshake, ExternalLink } from 'lucide-react';
+import { Video, Layers, BookOpen, Globe, Target, Clapperboard } from 'lucide-react';
 
 export default function Services() {
   const services = [
     {
       icon: Video,
-      title: 'Commercial Video Production',
-      description: 'Full-service commercial production from concept to delivery. High-end video production with HD capabilities and professional-grade equipment.',
-      gradient: 'from-cyan-500 to-blue-600'
+      title: 'TACTICAL VIDEO PRODUCTION',
+      description: 'Technical documentation. Training materials. Mission-critical content.',
     },
     {
-      icon: Palette,
-      title: 'Motion Graphics & 3D Design',
-      description: 'Dynamic motion graphics and 3D animation for commercials, explainer videos, and brand content. Technical how-to videos with detailed product visualization.',
-      gradient: 'from-blue-500 to-indigo-600'
+      icon: Layers,
+      title: 'MOTION GRAPHICS // 3D',
+      description: 'Technical visualization. Product breakdowns. Educational animation.',
+    },
+    {
+      icon: BookOpen,
+      title: 'EDUCATIONAL CONTENT',
+      description: 'How-to series. Technical training. Knowledge transfer.',
+    },
+    {
+      icon: Clapperboard,
+      title: 'POST-PRODUCTION',
+      description: 'Precision editing. Color grading. Audio mastering.',
     },
     {
       icon: Globe,
-      title: 'Web Design',
-      description: 'Modern, responsive websites that capture your brand identity and engage your audience across all devices.',
-      gradient: 'from-indigo-500 to-purple-600',
-      link: 'https://glyphos-task-manager.netlify.app/',
-      isShowcase: true
+      title: 'WEB DEPLOYMENT',
+      description: 'Digital presence. Responsive design. SEO optimization.',
     },
     {
-      icon: Palette,
-      title: 'Logo Design & Branding',
-      description: 'Create memorable brand identities with custom logo design and comprehensive branding solutions.',
-      gradient: 'from-purple-500 to-pink-600'
-    },
-    {
-      icon: Search,
-      title: 'SEO Research & Placement',
-      description: 'Strategic SEO services to improve your online visibility and drive organic traffic to your business.',
-      gradient: 'from-pink-500 to-rose-600'
-    },
-    {
-      icon: Handshake,
-      title: 'Sponsorships & Co-op',
-      description: 'Automotive co-op compliance expertise and sponsorship program management for dealerships and manufacturers.',
-      gradient: 'from-rose-500 to-orange-600'
+      icon: Target,
+      title: 'STRATEGIC BRANDING',
+      description: 'Logo design. Brand identity. Market positioning.',
     }
   ];
 
   return (
-    <section id="services" className="py-24 bg-slate-800 relative overflow-hidden">
-      {/* Decorative elements */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-cyan-500 to-transparent"></div>
+    <section id="services" className="py-24 bg-brand-grey relative overflow-hidden">
+      {/* Technical grid overlay */}
+      <div className="absolute inset-0 grid-pattern opacity-20"></div>
+      
+      {/* Top border */}
+      <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-blue to-transparent"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4">
-            Our <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">Services</span>
+        <div className="mb-16">
+          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
+            [ OPERATIONAL CAPABILITIES ]
           </h2>
-          <p className="text-xl text-gray-400 max-w-3xl mx-auto">
-            Comprehensive digital design and video production solutions for businesses throughout the Tri-State region
+          <p className="text-white font-mono uppercase text-sm tracking-wider">
+            TECHNICAL PRODUCTION // EDUCATIONAL CONTENT // MISSION EXECUTION
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {/* GIF Showcase Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-16">
+          <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+            <img 
+              src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/military1.gif" 
+              alt="Powerful motion graphics and color theory" 
+              className="w-full aspect-video object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                POWERFUL MOTION GRAPHICS & COLOR THEORY
+              </p>
+            </div>
+          </div>
+
+          <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+            <img 
+              src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/military2.gif" 
+              alt="Modern and retro styles" 
+              className="w-full aspect-video object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                MODERN & RETRO STYLES
+              </p>
+            </div>
+          </div>
+
+          <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+            <img 
+              src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/military3.gif" 
+              alt="Advanced 3D graphics" 
+              className="w-full aspect-video object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                ADVANCED 3D GRAPHICS
+              </p>
+            </div>
+          </div>
+
+          <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+            <img 
+              src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/military4.gif" 
+              alt="Connecting the matrix" 
+              className="w-full aspect-video object-cover"
+            />
+            <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+              <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                CONNECTING THE MATRIX
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service, index) => {
             const Icon = service.icon;
-
-            if (service.isShowcase) {
-              return (
-                <div
-                  key={index}
-                  className="group relative bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl overflow-hidden hover:border-cyan-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20 hover:-translate-y-1 md:col-span-2"
-                >
-                  <div className="grid md:grid-cols-2 gap-0">
-                    <div className="p-8">
-                      <div className="flex items-start justify-between mb-6">
-                        <div className={`inline-block p-3 rounded-lg bg-gradient-to-br ${service.gradient} group-hover:scale-110 transition-transform`}>
-                          <Icon className="text-white" size={28} />
-                        </div>
-                      </div>
-
-                      <h3 className="text-2xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors">
-                        {service.title}
-                      </h3>
-
-                      <p className="text-gray-400 leading-relaxed mb-6">
-                        {service.description}
-                      </p>
-
-                      <a
-                        href={service.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-cyan-500 to-blue-600 rounded-lg font-semibold text-white hover:shadow-lg hover:shadow-cyan-500/50 transition-all hover:scale-105"
-                      >
-                        Try It Now
-                        <ExternalLink size={18} />
-                      </a>
-                    </div>
-
-                    <div className="grid grid-cols-2 gap-2 p-4 bg-slate-950/50">
-                      <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr1.JPG" alt="Task Manager Main View" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
-                      <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr2.JPG" alt="Task Manager Calendar" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
-                      <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr3.JPG" alt="Task Manager Detail" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
-                      <img src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Images%20for%20Horseheads%20Media/tskmgr4.JPG" alt="Task Manager Board" className="w-full h-full object-cover rounded-lg hover:scale-105 transition-transform" />
-                    </div>
-                  </div>
-
-                  <div className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${service.gradient} transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left`}></div>
-                </div>
-              );
-            }
 
             return (
               <div
                 key={index}
-                className="group relative bg-slate-900/50 backdrop-blur-sm border border-slate-700 rounded-xl p-8 hover:border-cyan-500/50 transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/20 hover:-translate-y-1"
+                className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300"
               >
-                <div className="flex items-start justify-between mb-6">
-                  <div className={`inline-block p-3 rounded-lg bg-gradient-to-br ${service.gradient} group-hover:scale-110 transition-transform`}>
-                    <Icon className="text-white" size={28} />
+                {/* Corner accents */}
+                <div className="absolute top-0 left-0 w-3 h-3 border-t-2 border-l-2 border-brand-blue opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="absolute top-0 right-0 w-3 h-3 border-t-2 border-r-2 border-brand-blue opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="absolute bottom-0 left-0 w-3 h-3 border-b-2 border-l-2 border-brand-blue opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                <div className="absolute bottom-0 right-0 w-3 h-3 border-b-2 border-r-2 border-brand-blue opacity-0 group-hover:opacity-100 transition-opacity"></div>
+                
+                <div className="p-6">
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="p-3 border border-brand-blue/40 bg-brand-blue/5">
+                      <Icon className="text-white" size={24} />
+                    </div>
+                    <span className="text-xs text-brand-blue/50 font-mono">0{index + 1}</span>
                   </div>
-                  {service.link && (
-                    <a
-                      href={service.link}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-gray-500 group-hover:text-cyan-400 transition-colors"
-                    >
-                      <ExternalLink size={18} />
-                    </a>
-                  )}
+
+                  <h3 className="text-lg font-bold text-brand-blue mb-3 font-mono uppercase tracking-wider">
+                    {service.title}
+                  </h3>
+
+                  <p className="text-white text-sm font-mono leading-relaxed">
+                    {service.description}
+                  </p>
+
+                  <div className="mt-4 h-px bg-brand-blue/20 transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
                 </div>
-
-                <h3 className="text-xl font-bold text-white mb-3 group-hover:text-cyan-400 transition-colors">
-                  {service.title}
-                </h3>
-
-                <p className="text-gray-400 leading-relaxed">
-                  {service.description}
-                </p>
-
-                <div className={`absolute bottom-0 left-0 right-0 h-1 bg-gradient-to-r ${service.gradient} transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left rounded-b-xl`}></div>
               </div>
             );
           })}
+        </div>
+
+        {/* Distribution & Reach Section */}
+        <div className="mt-16 p-8 border border-brand-blue/30 bg-black">
+          <h3 className="text-2xl font-bold text-white mb-6 font-mono uppercase tracking-wider">[ DISTRIBUTION & REACH ]</h3>
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div>
+              <h4 className="text-white font-mono uppercase tracking-wider mb-4 text-lg">DIGITAL PLATFORMS</h4>
+              <ul className="text-white font-mono space-y-2 text-sm">
+                <li>• Samsung TV Plus</li>
+                <li>• Hulu</li>
+                <li>• Roku</li>
+                <li>• YouTube TV</li>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-white font-mono uppercase tracking-wider mb-4 text-lg">LOCAL BROADCAST</h4>
+              <ul className="text-white font-mono space-y-2 text-sm">
+                <li>• WETM-TV</li>
+                <li>• WENY-TV</li>
+                <li>• WYDC-TV</li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </section>
