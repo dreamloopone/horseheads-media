@@ -37,7 +37,7 @@ export default function Hero() {
                 HORSEHEADS MEDIA
               </h1>
               <div className="flex items-center gap-4">
-                <p className="text-base text-white font-mono uppercase tracking-wider">
+                <p className="text-base text-white/60 font-mono uppercase tracking-wider">
                   TECHNICAL // EDUCATIONAL // VIDEO PRODUCTION
                 </p>
                 <img 
@@ -51,19 +51,19 @@ export default function Hero() {
             {/* Technical Grid Stats */}
             <div className="grid grid-cols-3 gap-4">
               <div className="border border-brand-blue/30 bg-brand-blue/5 p-4 text-center">
-                <Target className="text-white mx-auto mb-2" size={24} />
-                <div className="text-2xl font-bold text-white font-mono">HD</div>
-                <div className="text-xs text-white font-mono uppercase">Video Production</div>
+                <Target className="text-white/60 mx-auto mb-2" size={24} />
+                <div className="text-2xl font-bold text-white/60 font-mono">HD</div>
+                <div className="text-xs text-white/60 font-mono uppercase">Video Production</div>
               </div>
               <div className="border border-brand-blue/30 bg-brand-blue/5 p-4 text-center">
-                <Film className="text-white mx-auto mb-2" size={24} />
-                <div className="text-2xl font-bold text-white font-mono">3D</div>
-                <div className="text-xs text-white font-mono uppercase">Graphics</div>
+                <Film className="text-white/60 mx-auto mb-2" size={24} />
+                <div className="text-2xl font-bold text-white/60 font-mono">3D</div>
+                <div className="text-xs text-white/60 font-mono uppercase">Graphics</div>
               </div>
               <div className="border border-brand-blue/30 bg-brand-blue/5 p-4 text-center">
-                <BookOpen className="text-white mx-auto mb-2" size={24} />
-                <div className="text-2xl font-bold text-white font-mono">EDU</div>
-                <div className="text-xs text-white font-mono uppercase">Content</div>
+                <BookOpen className="text-white/60 mx-auto mb-2" size={24} />
+                <div className="text-2xl font-bold text-white/60 font-mono">EDU</div>
+                <div className="text-xs text-white/60 font-mono uppercase">Content</div>
               </div>
             </div>
 

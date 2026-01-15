@@ -47,7 +47,7 @@ export default function Services() {
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
             [ OPERATIONAL CAPABILITIES ]
           </h2>
-          <p className="text-white font-mono uppercase text-sm tracking-wider">
+          <p className="text-white/60 font-mono uppercase text-sm tracking-wider">
             TECHNICAL PRODUCTION // EDUCATIONAL CONTENT // MISSION EXECUTION
           </p>
         </div>
@@ -134,7 +134,7 @@ export default function Services() {
                     {service.title}
                   </h3>
 
-                  <p className="text-white text-sm font-mono leading-relaxed">
+                  <p className="text-white/60 text-sm font-mono leading-relaxed">
                     {service.description}
                   </p>
 

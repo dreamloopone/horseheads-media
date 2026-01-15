@@ -33,7 +33,7 @@ export default function Contact() {
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
             [ ESTABLISH CONTACT ]
           </h2>
-          <p className="text-white font-mono uppercase text-sm tracking-wider">
+          <p className="text-white/60 font-mono uppercase text-sm tracking-wider">
             MISSION BRIEFING // PROJECT DEPLOYMENT
           </p>
         </div>
@@ -80,7 +80,7 @@ export default function Contact() {
                   </div>
                   <div>
                     <h4 className="text-white font-mono text-sm mb-1">EMAIL</h4>
-                    <p className="text-white font-mono text-sm">info@horseheadsmedia.com</p>
+                    <p className="text-white font-mono text-sm">patrick.allyn@horseheadsmedia.com</p>
                   </div>
                 </div>
               </div>

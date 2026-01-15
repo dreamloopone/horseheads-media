@@ -79,7 +79,7 @@ export default function Portfolio() {
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
             [ OUR PORTFOLIO ]
           </h2>
-          <p className="text-white font-mono uppercase text-sm tracking-wider">
+          <p className="text-white/60 font-mono uppercase text-sm tracking-wider">
             SHOWCASING OUR RECENT WORK ACROSS VIDEO PRODUCTION, MOTION GRAPHICS, AND DIGITAL DESIGN
           </p>
         </div>
@@ -101,7 +101,7 @@ export default function Portfolio() {
 
               <div className="p-6">
                 <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-semibold text-white uppercase tracking-wide">
+                  <span className="text-sm font-bold text-white uppercase tracking-wider font-mono">
                     {verticalVideo.category}
                   </span>
                   <a
@@ -114,11 +114,11 @@ export default function Portfolio() {
                   </a>
                 </div>
 
-                <h3 className="text-xl font-bold text-white mb-2 group-hover:text-brand-blue transition-colors">
+                <h3 className="text-xl font-bold text-white mb-2 group-hover:text-brand-blue transition-colors font-mono uppercase tracking-wider">
                   {verticalVideo.title}
                 </h3>
 
-                <p className="text-gray-400 text-sm leading-relaxed">
+                <p className="text-white/60 text-sm leading-relaxed font-mono">
                   {verticalVideo.description}
                 </p>
               </div>
@@ -147,7 +147,7 @@ export default function Portfolio() {
 
                   <div className="p-6">
                     <div className="flex items-center justify-between mb-3">
-                    <span className="text-sm font-semibold text-white uppercase tracking-wide">
+                    <span className="text-sm font-bold text-white uppercase tracking-wider font-mono">
                         {item.category}
                       </span>
                       <a
@@ -160,11 +160,11 @@ export default function Portfolio() {
                       </a>
                     </div>
 
-                    <h3 className="text-lg font-bold text-white mb-2 group-hover:text-brand-blue transition-colors">
+                    <h3 className="text-lg font-bold text-white mb-2 group-hover:text-brand-blue transition-colors font-mono uppercase tracking-wider">
                       {item.title}
                     </h3>
 
-                    <p className="text-white text-sm leading-relaxed">
+                    <p className="text-white/60 text-sm leading-relaxed font-mono">
                       {item.description}
                     </p>
                   </div>
@@ -181,11 +181,11 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6">
             {/* Left: Content */}
             <div className="flex flex-col justify-center">
-              <h3 className="text-3xl font-bold text-white mb-4 group-hover:text-brand-blue transition-colors">
+              <h3 className="text-3xl font-bold text-white mb-4 group-hover:text-brand-blue transition-colors font-mono uppercase tracking-wider">
                 {brandShowcase.title}
               </h3>
 
-              <p className="text-white text-lg leading-relaxed mb-6">
+              <p className="text-white/60 text-lg leading-relaxed mb-6 font-mono">
                 {brandShowcase.description}
               </p>
 
@@ -223,11 +223,11 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6">
             {/* Left: Content */}
             <div className="flex flex-col justify-center">
-              <h3 className="text-3xl font-bold text-white mb-4 group-hover:text-brand-blue transition-colors">
+              <h3 className="text-3xl font-bold text-white mb-4 group-hover:text-brand-blue transition-colors font-mono uppercase tracking-wider">
                 {droneShowcase.title}
               </h3>
 
-              <p className="text-white text-lg leading-relaxed mb-6">
+              <p className="text-white/60 text-lg leading-relaxed mb-6 font-mono">
                 {droneShowcase.description}
               </p>
 
@@ -265,11 +265,11 @@ export default function Portfolio() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 p-6">
             {/* Left: Content */}
             <div className="flex flex-col justify-center">
-              <h3 className="text-3xl font-bold text-white mb-4 group-hover:text-brand-blue transition-colors">
+              <h3 className="text-3xl font-bold text-white mb-4 group-hover:text-brand-blue transition-colors font-mono uppercase tracking-wider">
                 {greenScreenShowcase.title}
               </h3>
 
-              <p className="text-white text-lg leading-relaxed mb-6">
+              <p className="text-white/60 text-lg leading-relaxed mb-6 font-mono">
                 {greenScreenShowcase.description}
               </p>
 
@@ -315,11 +315,11 @@ export default function Portfolio() {
 
             {/* Right: Content */}
             <div className="flex flex-col justify-center">
-              <h3 className="text-3xl font-bold text-white mb-4 group-hover:text-brand-blue transition-colors">
+              <h3 className="text-3xl font-bold text-white mb-4 group-hover:text-brand-blue transition-colors font-mono uppercase tracking-wider">
                 {webDesignShowcase.title}
               </h3>
 
-              <p className="text-white text-lg leading-relaxed mb-6">
+              <p className="text-white/60 text-lg leading-relaxed mb-6 font-mono">
                 {webDesignShowcase.description}
               </p>
 
