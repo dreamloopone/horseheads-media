@@ -43,9 +43,9 @@ export default function Services() {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-blue to-transparent"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
-            [ OPERATIONAL CAPABILITIES ]
+        <div className="mb-16 text-center sm:text-left">
+          <h2 className="text-xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
+            <span className="whitespace-nowrap">[ OPERATIONAL</span> <span className="whitespace-nowrap">CAPABILITIES ]</span>
           </h2>
           <p className="text-white/60 font-mono uppercase text-sm tracking-wider">
             TECHNICAL PRODUCTION // EDUCATIONAL CONTENT // MISSION EXECUTION

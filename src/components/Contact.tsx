@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin, Send } from 'lucide-react';
 import { useState } from 'react';
+import ConcentricRingsAnimation from './ConcentricRingsAnimation';
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -25,13 +26,18 @@ export default function Contact() {
 
   return (
     <section id="contact" className="py-24 bg-black relative overflow-hidden">
+      {/* Concentric Rings Animation Background */}
+      <div className="absolute inset-0">
+        <ConcentricRingsAnimation />
+      </div>
+      
       <div className="absolute inset-0 grid-pattern opacity-20"></div>
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-blue to-transparent"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
-            [ ESTABLISH CONTACT ]
+        <div className="mb-16 text-center sm:text-left">
+          <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
+            <span className="whitespace-nowrap">[ ESTABLISH CONTACT ]</span>
           </h2>
           <p className="text-white/60 font-mono uppercase text-sm tracking-wider">
             MISSION BRIEFING // PROJECT DEPLOYMENT

@@ -1,6 +1,19 @@
 import { ChevronDown, Target, Film, BookOpen } from 'lucide-react';
+import { useState, useEffect } from 'react';
 
 export default function Hero() {
+  const [isPortrait, setIsPortrait] = useState(false);
+
+  useEffect(() => {
+    const checkOrientation = () => {
+      setIsPortrait(window.innerWidth / window.innerHeight < 3 / 4);
+    };
+
+    checkOrientation();
+    window.addEventListener('resize', checkOrientation);
+    return () => window.removeEventListener('resize', checkOrientation);
+  }, []);
+
   const scrollToServices = () => {
     const element = document.getElementById('services');
     if (element) {
@@ -11,13 +24,18 @@ export default function Hero() {
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black scan-line">
       {/* Background Video */}
-      <iframe
-        src="https://player.vimeo.com/video/1154606484?h=56707d6d22&autoplay=1&loop=1&muted=1&background=1"
-        className="absolute inset-0 w-full h-full"
-        frameBorder="0"
-        allow="autoplay; fullscreen"
-        style={{ pointerEvents: 'none' }}
-      ></iframe>
+      <div className="absolute inset-0 video-container">
+        <iframe
+          src={isPortrait 
+            ? "https://player.vimeo.com/video/1156548603?h=1f3b226be3&autoplay=1&loop=1&muted=1&background=1"
+            : "https://player.vimeo.com/video/1154606484?h=56707d6d22&autoplay=1&loop=1&muted=1&background=1"
+          }
+          className="absolute inset-0 w-full h-full video-background"
+          frameBorder="0"
+          allow="autoplay; fullscreen"
+          style={{ pointerEvents: 'none' }}
+        ></iframe>
+      </div>
 
       {/* Technical grid background */}
       <div className="absolute inset-0 grid-pattern opacity-30"></div>
@@ -73,6 +91,10 @@ export default function Hero() {
           100% {
             transform: translateY(50px);
           }
+        }
+
+        .video-container {
+          overflow: hidden;
         }
       `}</style>
     </section>
