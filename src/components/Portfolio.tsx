@@ -1,14 +1,24 @@
 import { Play, ExternalLink } from 'lucide-react';
 
 export default function Portfolio() {
-  const verticalVideo = {
-    title: 'MOBILE VIDEO CONTENT',
-    category: 'VERTICAL VIDEO',
-    description: 'Mobile-optimized vertical video for social media',
-    gradient: 'from-purple-500 to-pink-600',
-    videoUrl: 'https://vimeo.com/1121992111?fl=tl&fe=ec',
-    isVertical: true
-  };
+  const verticalVideos = [
+    {
+      title: 'MOBILE VIDEO CONTENT',
+      category: 'VERTICAL VIDEO',
+      description: 'Mobile-optimized vertical video for social media',
+      gradient: 'from-purple-500 to-pink-600',
+      videoUrl: 'https://vimeo.com/1121992111?fl=tl&fe=ec',
+      isVertical: true
+    },
+    {
+      title: 'VERTICAL CONTENT',
+      category: 'VERTICAL VIDEO',
+      description: 'Engaging vertical format for mobile platforms',
+      gradient: 'from-purple-500 to-pink-600',
+      videoUrl: 'https://vimeo.com/1157726681/16e25e1a62?share=copy&fl=sv&fe=ci',
+      isVertical: true
+    }
+  ];
 
   const gridVideos = [
     {
@@ -86,44 +96,48 @@ export default function Portfolio() {
 
         {/* Top Row: Vertical Video + 3 Videos Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-5 gap-8 mb-8">
-          {/* Left Column: Vertical Video */}
+          {/* Left Column: Vertical Videos */}
           <div className="lg:col-span-2">
-            <div className="group relative bg-slate-900 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/20 transition-all duration-300 hover:-translate-y-2 h-full">
-              <div className="relative aspect-[9/16] overflow-hidden">
-                <iframe
-                  src={`https://player.vimeo.com/video/${verticalVideo.videoUrl.match(/vimeo\.com\/(\d+)/)?.[1]}?h=${verticalVideo.videoUrl.match(/fl=([^&]+)/)?.[1] || ''}&title=0&byline=0&portrait=0`}
-                  className="absolute inset-0 w-full h-full"
-                  frameBorder="0"
-                  allow="autoplay; fullscreen; picture-in-picture"
-                  allowFullScreen
-                ></iframe>
-              </div>
+            <div className="grid grid-cols-1 gap-6 h-full">
+              {verticalVideos.map((verticalVideo, index) => (
+                <div key={index} className="group relative bg-slate-900 rounded-xl overflow-hidden hover:shadow-2xl hover:shadow-brand-blue/20 transition-all duration-300 hover:-translate-y-2">
+                  <div className="relative aspect-[9/16] overflow-hidden">
+                    <iframe
+                      src={`https://player.vimeo.com/video/${verticalVideo.videoUrl.match(/vimeo\.com\/(\d+)/)?.[1]}?h=${verticalVideo.videoUrl.match(/\/([a-z0-9]+)\?/)?.[1] || ''}&title=0&byline=0&portrait=0`}
+                      className="absolute inset-0 w-full h-full"
+                      frameBorder="0"
+                      allow="autoplay; fullscreen; picture-in-picture"
+                      allowFullScreen
+                    ></iframe>
+                  </div>
 
-              <div className="p-6">
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-sm font-bold text-white uppercase tracking-wider font-mono">
-                    {verticalVideo.category}
-                  </span>
-                  <a
-                    href={verticalVideo.videoUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-gray-500 group-hover:text-brand-blue transition-colors"
-                  >
-                    <ExternalLink size={18} />
-                  </a>
+                  <div className="p-6">
+                    <div className="flex items-center justify-between mb-2">
+                      <span className="text-sm font-bold text-white uppercase tracking-wider font-mono">
+                        {verticalVideo.category}
+                      </span>
+                      <a
+                        href={verticalVideo.videoUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-500 group-hover:text-brand-blue transition-colors"
+                      >
+                        <ExternalLink size={18} />
+                      </a>
+                    </div>
+
+                    <h3 className="text-xl font-bold text-white mb-2 group-hover:text-brand-blue transition-colors font-mono uppercase tracking-wider">
+                      {verticalVideo.title}
+                    </h3>
+
+                    <p className="text-white/60 text-sm leading-relaxed font-mono">
+                      {verticalVideo.description}
+                    </p>
+                  </div>
+
+                  <div className="absolute bottom-0 left-0 right-0 h-1 bg-brand-blue transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
                 </div>
-
-                <h3 className="text-xl font-bold text-white mb-2 group-hover:text-brand-blue transition-colors font-mono uppercase tracking-wider">
-                  {verticalVideo.title}
-                </h3>
-
-                <p className="text-white/60 text-sm leading-relaxed font-mono">
-                  {verticalVideo.description}
-                </p>
-              </div>
-
-              <div className="absolute bottom-0 left-0 right-0 h-1 bg-brand-blue transform scale-x-0 group-hover:scale-x-100 transition-transform origin-left"></div>
+              ))}
             </div>
           </div>
 

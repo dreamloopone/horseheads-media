@@ -5,32 +5,17 @@ export default function Services() {
     {
       icon: Video,
       title: 'TACTICAL VIDEO PRODUCTION',
-      description: 'Technical documentation. Training materials. Mission-critical content.',
+      description: 'Technical documentation and training materials. Mission critical content. Military categories include JSOU, JISR, NET, JMPRC, OPFOR, OPA. Produced for Blackboard LMS delivery and RISE implementation. Tech videos that look like movies and CoD cutscenes. Athletic and aggressive, cutting edge.',
     },
     {
       icon: Layers,
-      title: 'MOTION GRAPHICS // 3D',
-      description: 'Technical visualization. Product breakdowns. Educational animation.',
+      title: 'MOTION GRAPHICS // 3D // AUDIO',
+      description: 'Adobe Creative Suite - After Effects, Premiere. Long-form, short-form. Plugins include Video CoPilot\'s Element, Optical Flares. Blender for 3D rendering. Can process STL/STP files from AutoCAD for video production and 3D animations. Audio production includes synced sound effects and 24-bit resolution.',
     },
     {
       icon: BookOpen,
       title: 'EDUCATIONAL CONTENT',
-      description: 'How-to series. Technical training. Knowledge transfer.',
-    },
-    {
-      icon: Clapperboard,
-      title: 'POST-PRODUCTION',
-      description: 'Precision editing. Color grading. Audio mastering.',
-    },
-    {
-      icon: Globe,
-      title: 'WEB DEPLOYMENT',
-      description: 'Digital presence. Responsive design. SEO optimization.',
-    },
-    {
-      icon: Target,
-      title: 'STRATEGIC BRANDING',
-      description: 'Logo design. Brand identity. Market positioning.',
+      description: 'Specializing in producing explainer video content. Excellent for mobile, in-field product assembly. Multi-lingual outputs available. Categories include military (DoD/DoW), construction, and industrial design work.',
     }
   ];
 
@@ -143,6 +128,204 @@ export default function Services() {
               </div>
             );
           })}
+        </div>
+
+        {/* Construction Product Technical Explainers */}
+        <div className="mt-16">
+          <div className="mb-8">
+            <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
+              [ TECHNICAL EXPLAINER SAMPLES ]
+            </h3>
+            <p className="text-white/60 font-mono uppercase text-sm tracking-wider">
+              CONSTRUCTION PRODUCTS // INDUSTRIAL VISUALIZATION // TECHNICAL BREAKDOWNS
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/asgco1.gif" 
+                alt="Construction product technical explainer 1" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  PRODUCT ASSEMBLY VISUALIZATION
+                </p>
+              </div>
+            </div>
+
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/asgco2.gif" 
+                alt="Construction product technical explainer 2" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  INDUSTRIAL COMPONENT BREAKDOWN
+                </p>
+              </div>
+            </div>
+
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/asgco3.gif" 
+                alt="Construction product technical explainer 3" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  TECHNICAL INSTALLATION GUIDE
+                </p>
+              </div>
+            </div>
+
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/asgco4.gif" 
+                alt="Construction product technical explainer 4" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  MECHANICAL SYSTEM DEMONSTRATION
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Automotive/Corporate Samples */}
+        <div className="mt-16">
+          <div className="mb-8">
+            <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
+              [ AUTOMOTIVE & CORPORATE SAMPLES ]
+            </h3>
+            <p className="text-white/60 font-mono uppercase text-sm tracking-wider">
+              COMMERCIAL PRODUCTION // BRAND MESSAGING // CORPORATE IDENTITY
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/browndaub512CJDR.gif" 
+                alt="Automotive commercial sample 1" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  AUTOMOTIVE SALES EVENT CAMPAIGN
+                </p>
+              </div>
+            </div>
+
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/browndaubCJDR.gif" 
+                alt="Automotive commercial sample 2" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  DEALERSHIP BRAND PROMOTION
+                </p>
+              </div>
+            </div>
+
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/SpiritCJDR.gif" 
+                alt="Automotive commercial sample 3" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  CORPORATE AUTOMOTIVE MESSAGING
+                </p>
+              </div>
+            </div>
+
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/dandyminimart.gif" 
+                alt="Corporate brand sample" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  CORPORATE BRAND IDENTITY
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Video Production Samples */}
+        <div className="mt-16">
+          <div className="mb-8">
+            <h3 className="text-2xl sm:text-3xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
+              [ VIDEO PRODUCTION SAMPLES ]
+            </h3>
+            <p className="text-white/60 font-mono uppercase text-sm tracking-wider">
+              CINEMATOGRAPHY // VISUAL STORYTELLING // PRODUCTION EXCELLENCE
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/videoprod5.gif" 
+                alt="Video production sample 1" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  PROFESSIONAL CINEMATOGRAPHY
+                </p>
+              </div>
+            </div>
+
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/drone1.gif" 
+                alt="Video production sample 2" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  DYNAMIC VISUAL CONTENT
+                </p>
+              </div>
+            </div>
+
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/videoprod3.gif" 
+                alt="Video production sample 3" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  CREATIVE STORYTELLING
+                </p>
+              </div>
+            </div>
+
+            <div className="group relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
+              <img 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/videoprod4.gif" 
+                alt="Video production sample 4" 
+                className="w-full aspect-video object-cover"
+              />
+              <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+                <p className="text-center text-white font-mono uppercase text-sm tracking-wider px-4">
+                  PRODUCTION EXCELLENCE
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
 
         {/* Distribution & Reach Section */}
