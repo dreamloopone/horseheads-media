@@ -87,7 +87,7 @@ export default function Portfolio() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-16">
           <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
-            [ OUR PORTFOLIO ]
+            [ PORTFOLIO ]
           </h2>
           <p className="text-white/60 font-mono uppercase text-sm tracking-wider">
             SHOWCASING OUR RECENT WORK ACROSS VIDEO PRODUCTION, MOTION GRAPHICS, AND DIGITAL DESIGN
