@@ -302,9 +302,9 @@ export default function Services() {
 
         {/* Distribution & Reach Section */}
         <div className="mt-16 p-8 border border-brand-blue/30 bg-black">
-          <h3 className="text-2xl font-bold text-white mb-6 font-mono uppercase tracking-wider">[ DISTRIBUTION & REACH ]</h3>
+          <h3 className="text-2xl font-bold text-white mb-6 font-mono uppercase tracking-wider text-center">[ DISTRIBUTION ]</h3>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div>
+            <div className="text-center">
               <h4 className="text-white font-mono uppercase tracking-wider mb-4 text-lg">DIGITAL PLATFORMS</h4>
               <ul className="text-white font-mono space-y-2 text-sm">
                 <li>• Samsung TV Plus</li>
@@ -313,7 +313,7 @@ export default function Services() {
                 <li>• YouTube TV</li>
               </ul>
             </div>
-            <div>
+            <div className="text-center">
               <h4 className="text-white font-mono uppercase tracking-wider mb-4 text-lg">LOCAL BROADCAST</h4>
               <ul className="text-white font-mono space-y-2 text-sm">
                 <li>• WETM-TV</li>
@@ -321,7 +321,7 @@ export default function Services() {
                 <li>• WYDC-TV</li>
               </ul>
             </div>
-            <div>
+            <div className="text-center">
               <h4 className="text-white font-mono uppercase tracking-wider mb-4 text-lg">LOCAL RADIO</h4>
               <ul className="text-white font-mono space-y-2 text-sm">
                 <li>• 94 ROCK</li>

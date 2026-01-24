@@ -35,9 +35,9 @@ export default function Contact() {
       <div className="absolute top-0 left-0 w-full h-px bg-gradient-to-r from-transparent via-brand-blue to-transparent"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="mb-16 text-center sm:text-left">
+        <div className="mb-16 text-center">
           <h2 className="text-2xl sm:text-4xl lg:text-5xl font-bold text-white mb-4 font-mono uppercase tracking-wider">
-            <span className="whitespace-nowrap">[ ESTABLISH CONTACT ]</span>
+            [ ESTABLISH CONTACT ]
           </h2>
           <p className="text-white/60 font-mono uppercase text-sm tracking-wider">
             MISSION BRIEFING // PROJECT DEPLOYMENT
