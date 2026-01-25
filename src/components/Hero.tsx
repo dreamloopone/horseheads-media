@@ -99,8 +99,47 @@ export default function Hero() {
           }
         }
 
+        @keyframes scan {
+          0% {
+            transform: translateY(-100%);
+            opacity: 0;
+          }
+          5% {
+            opacity: 1;
+          }
+          80% {
+            transform: translateY(100vh);
+            opacity: 1;
+          }
+          100% {
+            transform: translateY(100vh);
+            opacity: 0;
+          }
+        }
+
         .video-container {
           overflow: hidden;
+        }
+
+        .scan-line::before {
+          content: '';
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 2px;
+          background: linear-gradient(
+            to bottom,
+            transparent,
+            rgba(255, 255, 255, 0.1) 45%,
+            rgba(255, 255, 255, 0.3) 50%,
+            rgba(255, 255, 255, 0.1) 55%,
+            transparent
+          );
+          box-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
+          animation: scan 12s ease-in-out infinite;
+          z-index: 50;
+          pointer-events: none;
         }
       `}</style>
     </section>
