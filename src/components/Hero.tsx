@@ -25,16 +25,22 @@ export default function Hero() {
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-black scan-line">
       {/* Background Video */}
       <div className="absolute inset-0 video-container">
-        <iframe
-          src={isPortrait 
-            ? "https://player.vimeo.com/video/1156548603?h=1f3b226be3&autoplay=1&loop=1&muted=1&background=1"
-            : "https://player.vimeo.com/video/1154606484?h=56707d6d22&autoplay=1&loop=1&muted=1&background=1"
-          }
-          className="absolute inset-0 w-full h-full video-background"
-          frameBorder="0"
-          allow="autoplay; fullscreen"
+        <video
+          autoPlay
+          loop
+          muted
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover"
           style={{ pointerEvents: 'none' }}
-        ></iframe>
+        >
+          <source 
+            src={isPortrait 
+              ? "/assets/Background video for Horseheads Media 9-16_1.mp4"
+              : "/assets/Background video for Horseheads Media_2_1.mp4"
+            }
+            type="video/mp4"
+          />
+        </video>
       </div>
 
       {/* Technical grid background */}
