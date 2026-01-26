@@ -9,8 +9,8 @@ export default function ClientLogos() {
       alt: 'ASGCO'
     },
     {
-      url: 'https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Corporate%20Logos%20for%20Horseheads%20Media/avw%20logo.png',
-      alt: 'AVW'
+      url: 'https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Corporate%20Logos%20for%20Horseheads%20Media/dandy%20white.png',
+      alt: 'Dandy'
     },
     {
       url: 'https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Corporate%20Logos%20for%20Horseheads%20Media/dragonstudios%20white.png',
