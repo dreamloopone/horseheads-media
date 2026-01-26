@@ -64,10 +64,10 @@ export default function ROISection() {
 
   const stats = [
     {
-      number: 85,
+      number: 94,
       title: 'Conversion Increase',
-      description: '3D product videos and visualizations increase conversions by up to 85% by clearly explaining features and benefits. Interactive 3D/360° views drive 94% higher conversion rates compared to static images.',
-      barWidth: 85,
+      description: '3D product videos and visualizations increase conversions by up to 94% by clearly explaining features and benefits. Interactive 3D/360° views drive 94% higher conversion rates compared to static images.',
+      barWidth: 94,
       source: 'Sayduck/Shopify stats',
       url: 'www.sayduck.com/3d-and-ar-statistics-2022',
       footnote: '1'
