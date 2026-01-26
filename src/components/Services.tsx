@@ -208,7 +208,7 @@ export default function Services() {
 
             <div className="relative bg-black border border-brand-blue/30 hover:border-brand-blue transition-all duration-300 overflow-hidden rounded-lg">
               <img 
-                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/SpiritCJDR.gif" 
+                src="https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/GIFS%20for%20Horseheads%20Media/SpiritCJDR_1.gif" 
                 alt="Automotive commercial sample 3" 
                 className="w-full aspect-video object-cover"
               />
