@@ -109,8 +109,8 @@ export default function ROISection() {
       {/* Corner brackets */}
       <div className="absolute top-8 left-8 w-10 h-10 border-t-2 border-l-2 border-brand-blue/40 pointer-events-none"></div>
       <div className="absolute top-8 right-8 w-10 h-10 border-t-2 border-r-2 border-brand-blue/40 pointer-events-none"></div>
-      <div className="absolute bottom-8 left-8 w-10 h-10 border-b-2 border-l-2 border-brand-blue/40 pointer-events-none"></div>
-      <div className="absolute bottom-8 right-8 w-10 h-10 border-b-2 border-r-2 border-brand-blue/40 pointer-events-none"></div>
+      <div className="absolute left-8 w-10 h-10 border-b-2 border-l-2 border-brand-blue/40 pointer-events-none" style={{ top: '420px' }}></div>
+      <div className="absolute right-8 w-10 h-10 border-b-2 border-r-2 border-brand-blue/40 pointer-events-none" style={{ top: '420px' }}></div>
 
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Title */}
