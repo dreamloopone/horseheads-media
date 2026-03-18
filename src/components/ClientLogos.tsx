@@ -17,8 +17,8 @@ export default function ClientLogos() {
       alt: 'Dragon Studios'
     },
     {
-      url: 'https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Corporate%20Logos%20for%20Horseheads%20Media/faskr%20logo%20WHITE.png',
-      alt: 'Faskr'
+      url: 'https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Corporate%20Logos%20for%20Horseheads%20Media/SightCall-White-Logo.png',
+      alt: 'SightCall'
     },
     {
       url: 'https://vekqdmgaoplskiuxawgj.supabase.co/storage/v1/object/public/Corporate%20Logos%20for%20Horseheads%20Media/HII_Logo%20white.png',
