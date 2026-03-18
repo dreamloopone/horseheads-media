@@ -19,6 +19,11 @@ function App() {
       <ROISection />
       <Portfolio />
       <Contact />
+      <footer className="bg-black border-t border-white/10 py-6 text-center">
+        <p className="text-white/40 font-mono text-xs tracking-wider">
+          © 2026 Horseheads Media, LLC. All rights reserved.
+        </p>
+      </footer>
     </div>
   );
 }
